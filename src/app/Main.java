@@ -10,9 +10,9 @@ import java.util.Date;
 public class Main {
     public static void main(String[] args) {
         // Criando um hóspede
-        Hospede hospede = new Hospede("Vinícius", 30, "123456789", "vinicius@example.com", "987654321   ", new Date(), 1);
+        Hospede hospede = new Hospede("Vinícius", 21, "123456789", "vinicius@example.com", "987654321   ", new Date(), 1);
         // Criando um quarto
-        Quarto quarto = new Quarto(101, "Standard", 150.0, "Disponível"); // Quarto 101 com diária de R$ 150
+        Quarto quarto = new Quarto(7, "Standard", 150.0, "Disponível"); // Quarto 101 com diária de R$ 150
 
         // Definindo as datas de entrada e saída
         Date dataEntrada = new Date();
