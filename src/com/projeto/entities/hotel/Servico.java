@@ -1,11 +1,15 @@
 package com.projeto.entities.hotel;
 
-public class servico {
+public class Servico {
     private String nomeServico;
     private String descricao;
     private double precoServico;
 
-    public servico(String nomeServico, String descricao, double precoServico) {
+    public Servico(){
+
+    }
+
+    public Servico(String nomeServico, String descricao, double precoServico) {
         this.nomeServico = nomeServico;
         this.descricao = descricao;
         this.precoServico = precoServico;

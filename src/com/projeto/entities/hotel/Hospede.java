@@ -2,17 +2,17 @@ package com.projeto.entities.hotel;
 
 import java.util.Date;
 
-public class hospede extends pessoa {
+public class Hospede extends Pessoa {
     private String email;
     private String telefone;
     private Date dataNascimento;
     private int idHospede;
 
-    public hospede(){
+    public Hospede(){
         super();
     }
 
-    public hospede(String nome, int idade, String cpf, String email, String telefone, Date dataNascimento, int idHospede) {
+    public Hospede(String nome, int idade, String cpf, String email, String telefone, Date dataNascimento, int idHospede) {
         super(nome, idade, cpf);
         this.email = email;
         this.telefone = telefone;
@@ -55,9 +55,10 @@ public class hospede extends pessoa {
     @Override
     public void exibirInformacoes() {
         super.exibirInformacoes();
-        System.out.println("Email: " + email);
-        System.out.println("Telefone: " + telefone);
-        System.out.println("Data de Nascimento: " + dataNascimento);
-        System.out.println("Código do Hóspede: " + idHospede);
+        System.out.println("informações do hospede");
+        System.out.print("Email: " + email);
+        System.out.print("Telefone: " + telefone);
+        System.out.print("Data de Nascimento: " + dataNascimento);
+        System.out.print("Código do Hóspede: " + idHospede);
     }
 }

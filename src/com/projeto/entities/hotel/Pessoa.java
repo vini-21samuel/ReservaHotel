@@ -1,14 +1,14 @@
 package com.projeto.entities.hotel;
 
-public class pessoa {
+public class Pessoa {
     private String nome;
     private int idade;
     private String cpf;
 
-    public pessoa() {
+    public Pessoa() {
     }
 
-    public pessoa(String nome, int idade, String cpf) {
+    public Pessoa(String nome, int idade, String cpf) {
         this.nome = nome;
         this.idade = idade;
         this.cpf = cpf;
@@ -39,8 +39,8 @@ public class pessoa {
     }
 
     public void exibirInformacoes() {
-        System.out.println("Nome: " + nome);
-        System.out.println("Idade: " + idade);
-        System.out.println("CPF: " + cpf);
+        System.out.print("Nome: " + nome);
+        System.out.print("Idade: " + idade);
+        System.out.print("CPF: " + cpf);
     }
 }
