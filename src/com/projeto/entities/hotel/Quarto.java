@@ -6,9 +6,6 @@ public class Quarto {
     private double precoDiaria;
     private String status;
 
-    public Quarto(){
-
-    }
 
     public Quarto(int numeroQuarto, String tipoQuarto, double precoDiaria, String status) {
         this.numeroQuarto = numeroQuarto;

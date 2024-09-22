@@ -6,9 +6,7 @@ public class Servico {
     private double precoServico;
 
     public Servico(){
-
     }
-
     public Servico(String nomeServico, String descricao, double precoServico) {
         this.nomeServico = nomeServico;
         this.descricao = descricao;
@@ -16,13 +14,13 @@ public class Servico {
     }
 
     public void exibirInformacoesServico() {
-        System.out.println("Nome do Serviço: " + nomeServico);
+        System.out.println("Nome doServiço: " + nomeServico);
         System.out.println("Descrição: " + descricao);
         System.out.println("Preço: " + precoServico);
     }
 
     public double aplicarDesconto(double percentualDesconto) {
-        return precoServico - (precoServico * percentualDesconto / 100);
+        return precoServico - (precoServico * percentualDesconto /100);
     }
 
 }

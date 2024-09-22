@@ -39,8 +39,8 @@ public class Pessoa {
     }
 
     public void exibirInformacoes() {
-        System.out.print("Nome: " + nome);
-        System.out.print("Idade: " + idade);
-        System.out.print("CPF: " + cpf);
+        System.out.println("Nome: " + nome);
+        System.out.println("Idade: " + idade);
+        System.out.println("CPF: " + cpf);
     }
 }

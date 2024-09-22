@@ -8,10 +8,6 @@ public class Hospede extends Pessoa {
     private Date dataNascimento;
     private int idHospede;
 
-    public Hospede(){
-        super();
-    }
-
     public Hospede(String nome, int idade, String cpf, String email, String telefone, Date dataNascimento, int idHospede) {
         super(nome, idade, cpf);
         this.email = email;

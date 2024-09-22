@@ -22,8 +22,6 @@ public class Reserva {
         calcularValorTotal();
     }
 
-    // Métodos getters e setters
-
     private void calcularValorTotal() {
         if (dataEntrada != null && dataSaida != null && quarto != null) {
             long dias = (dataSaida.getTime() - dataEntrada.getTime()) / (1000 * 60 * 60 * 24);
