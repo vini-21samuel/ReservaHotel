@@ -1,6 +1,6 @@
 package com.projeto.entities.hotel.Classes;
 
-import com.projeto.entities.hotel.Hospede;
+import com.projeto.entities.hotel.Classes.Hospede;
 
 import java.util.Date;
 
