@@ -1,8 +1,8 @@
 package app;
 
-import com.projeto.entities.hotel.Hospede;
-import com.projeto.entities.hotel.Quarto;
-import com.projeto.entities.hotel.Reserva;
+import com.projeto.entities.hotel.Classes.Hospede;
+import com.projeto.entities.hotel.Classes.Quarto;
+import com.projeto.entities.hotel.Classes.Reserva;
 
 import java.util.Date;
 
@@ -10,7 +10,7 @@ import java.util.Date;
 public class Main {
     public static void main(String[] args) {
         // Criando um hóspede
-        Hospede hospede = new Hospede("Vinícius", 21, "123456789", "vinicius@example.com", "987654321   ", new Date(), 1);
+        Hospede hospede = new Hospede("Vinícius", 21, "123456789", "vinicius23@gmail.com", "987654321   ", new Date(), 1);
         // Criando um quarto
         Quarto quarto = new Quarto(7, "Standard", 150.0, "Disponível"); // Quarto 101 com diária de R$ 150
 
